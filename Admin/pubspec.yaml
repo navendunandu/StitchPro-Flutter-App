@@ -1,0 +1,25 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  fl_chart: ^0.70.2
+  flutter:
+    sdk: flutter
+  flutter_staggered_animations: ^1.1.1
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  supabase_flutter: ^2.8.3
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
